@@ -3,7 +3,7 @@ This is my personal portfolio website, built to showcase my projects, technical 
 
 # Technologies Used
 
-HTML5
-CSS3
-JavaScript (ES6)
-Flexbox & Grid Layouts for responsive design
+HTML5,
+ CSS3,
+ JavaScript (ES6),
+ Flexbox & Grid Layouts for responsive design
