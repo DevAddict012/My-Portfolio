@@ -266,6 +266,9 @@ border:black 0.1rem solid;
     border-color: rgb(163,163,163);
     text-align: center;
 }
+.text-container{
+    text-align: center;
+}
 
 .section-container{
     gap:4rem;
