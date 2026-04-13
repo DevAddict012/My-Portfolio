@@ -36,15 +36,19 @@
         margin: 0 5%;
     }
     .section_pic-container{
-        width:275px;
+       /* width:275px;
         height:275px;
         margin:0 auto 2 rem;
+        */
+         width:auto;
+    height:47vw;
+        justify-content: center;
     }
     .about-containers{
         margin-top:0;
     }
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:800px) {
     #contact,footer{
         height:40vh;
     }
@@ -67,8 +71,7 @@
     .contact-info-container{
         margin:0;
     }
-}
-/*.contact-info-container p,
+    .contact-info-container p,
 .nav-links li a{
     font-size: 1rem;
 }
@@ -97,3 +100,5 @@
 .text-container{
     text-align: justify;
 }
+}
+
