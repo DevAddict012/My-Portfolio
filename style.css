@@ -333,6 +333,11 @@ article .icon{
     width:95%;
     height:95%;
 }
+.project-img1{
+    border-radius:2rem;
+    width: 95%;
+    height: 0.75em;
+}
 
 .project-title{
     margin:1rem;
