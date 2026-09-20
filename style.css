@@ -450,6 +450,14 @@ img { max-width: 100%; display: block; }
     border-radius: 50px;
     transition: width 1.2s cubic-bezier(0.4, 0, 0.2, 1);
 }
+.learning-tag {
+    font-size: 0.72rem;
+    color: var(--accent-2);
+    border: 1px solid var(--accent-2);
+    border-radius: 50px;
+    padding: 0.1rem 0.6rem;
+    letter-spacing: 0.5px;
+}
 
 /* PROJECTS */
 .project-card { overflow: hidden; height: 100%; }
