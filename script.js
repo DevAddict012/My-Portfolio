@@ -24,17 +24,15 @@
     function setToggleIcon(theme) {
         if (!themeToggle) return;
         themeToggle.innerHTML = theme === 'dark'
-            ? '<i class="bi bi-moon-stars-fill"></i>'
-            : '<i class="bi bi-brightness-high-fill"></i>';
+            ? '<i class="bi bi-brightness-high-fill"></i>'
+            : '<i class="bi bi-moon-stars-fill"></i>';
     }
 
     /* ---------- Typewriter effect ---------- */
     const typeTarget = document.getElementById('typewriter');
     const phrases = [
-        'Aspiring Software Engineer',
-        'Backend Developer',
-        'Full-Stack Developer',
-        'Problem Solver'
+        'Aspiring Software Developer',
+        'Full-Stack Developer'
     ];
     if (typeTarget) {
         let pIndex = 0, cIndex = 0, deleting = false;
@@ -90,9 +88,6 @@
         entries.forEach(function (entry) {
             if (entry.isIntersecting) {
                 entry.target.classList.add('visible');
-                entry.target.querySelectorAll('.skill-fill').forEach(function (fill) {
-                    fill.style.width = (fill.getAttribute('data-level') || 0) + '%';
-                });
                 io.unobserve(entry.target);
             }
         });
